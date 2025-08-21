@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-08-21T18:26:30.141053",
+  "summary": {
+    "total_queries": 14,
+    "success_rate": 50.0,
+    "failed_queries": 7
+  },
+  "failure_analysis": {
+    "total_queries": 14,
+    "failed_queries": 7,
+    "success_rate": 50.0,
+    "failure_patterns": {
+      "Что такое Void Core?": 3,
+      "Кто такой Void Core?": 2,
+      "Кто такой Xarn Velgor?": 2
+    }
+  },
+  "source_analysis": {
+    "characters/Arin Solara.txt": 19,
+    "events/Echo Wars.txt": 14,
+    "characters/Eldar Voss.txt": 11,
+    "characters/Jax Varion.txt": 5,
+    "characters/KX-13.txt": 4,
+    "characters/Oren Kael.txt": 4,
+    "characters/Kade Rhaul.txt": 4,
+    "locations/Aurelia Prime.txt": 2,
+    "technologies/Rift Engine.txt": 2,
+    "test.txt": 1
+  },
+  "knowledge_gaps": {
+    "removed_entities_queries": [
+      {
+        "query": "Кто такой Synth Flux?",
+        "entity": "Synth Flux",
+        "successful": true,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Void Core?",
+        "entity": "Void Core",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Что такое Void Core?",
+        "entity": "Void Core",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Xarn Velgor?",
+        "entity": "Xarn Velgor",
+        "successful": true,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Synth Flux?",
+        "entity": "Synth Flux",
+        "successful": true,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Xarn Velgor?",
+        "entity": "Xarn Velgor",
+        "successful": true,
+        "chunks_found": 5
+      },
+      {
+        "query": "Что такое Void Core?",
+        "entity": "Void Core",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Xarn Velgor?",
+        "entity": "Xarn Velgor",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Void Core?",
+        "entity": "Void Core",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Что такое Void Core?",
+        "entity": "Void Core",
+        "successful": false,
+        "chunks_found": 5
+      },
+      {
+        "query": "Кто такой Xarn Velgor?",
+        "entity": "Xarn Velgor",
+        "successful": false,
+        "chunks_found": 5
+      }
+    ],
+    "potential_gaps": [
+      "Кто такой Void Core?",
+      "Что такое Void Core?",
+      "Кто такой Xarn Velgor?"
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "ВЫСОКИЙ",
+      "area": "Промпты",
+      "issue": "Низкая общая успешность (50.0%)",
+      "action": "Улучшить промпты и логику обработки запросов"
+    },
+    {
+      "priority": "ВЫСОКИЙ",
+      "area": "База знаний",
+      "issue": "Неправильная обработка удаленных сущностей (4 случаев)",
+      "action": "Добавить информацию об удаленных сущностях или улучшить логику отказов"
+    },
+    {
+      "priority": "СРЕДНИЙ",
+      "area": "Контент",
+      "issue": "Частые неудачи по теме 'Что такое Void Core?' (3 раз)",
+      "action": "Расширить или улучшить информацию по данной теме"
+    }
+  ]
+}

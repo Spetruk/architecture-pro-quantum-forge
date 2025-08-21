@@ -1,0 +1,27 @@
+# Основные зависимости для RAG-бота
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-huggingface>=0.3.0
+langchain-chroma>=0.2.0
+langchain-openai>=0.1.0
+langchain-core>=0.3.0
+chromadb==1.0.18
+sentence-transformers>=2.2.2
+
+# Для работы с LLM
+openai>=1.0.0
+
+# Для обработки текста
+tiktoken>=0.5.0
+numpy>=1.24,<2.0
+pandas>=2.0.0
+
+# Для веб-интерфейса (опционально)
+streamlit>=1.28.0
+gradio>=4.0.0
+
+# Для логирования и конфигурации
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+

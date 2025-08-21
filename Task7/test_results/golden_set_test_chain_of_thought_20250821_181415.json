@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "test_id": "438162ec",
+    "timestamp": "2025-08-21T18:14:15.905698",
+    "technique": "chain_of_thought",
+    "total_time": 58.518893003463745,
+    "questions_count": 13
+  },
+  "statistics": {
+    "overall_accuracy": 0.6153846153846154,
+    "total_questions": 13,
+    "correct_answers": 8,
+    "success_questions": {
+      "total": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    "failure_questions": {
+      "total": 5,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "average_completeness": 0.3974358974358974,
+    "categories": {
+      "characters": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "technologies": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "locations": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "events": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "removed_entities": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "external_knowledge": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "timestamp": "2025-08-21T18:13:20.038409",
+      "test_id": "438162ec",
+      "question_id": "known_01",
+      "question": "Кто такой Arin Solara?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, кто такой Arin Solara.\n2. Из предоставленного контекста можно понять, что Arin Solara - персонаж научно-фантастической вселенной, который обладает способностями использовать телекинез, имеет связь с могущественными кристаллами и лучами, обладает силой воина и мудрости.\n3. Arin Solara является молодым и талантливым воином, который проходит сложные испытания, обладает связью с различными силами и силой воли, стремится помогать другим и борется за свет в галактике.\n4. Ответ: Arin Solara - это молодой и могущественный воин с уникальными способностями, который стремится использовать свои навыки для добра и света в галактике научной фантастики.",
+      "sources": [
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 674
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:25.834499",
+      "test_id": "438162ec",
+      "question_id": "known_02",
+      "question": "Что такое Lumen Blade?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, что такое Lumen Blade.\n\n2. Из предоставленного контекста я вижу, что Lumen Blade - это особое оружие, также известное как лазерный меч или космический меч. Оно является символом Ордена Стражей и ассоциируется с их ценностями поддержания мира и справедливости в галактике. Lumen Blade состоит из лезвия чистой плазмы, эмитированной из рукоятки и поддерживаемой в поле удерживания. Для использования Lumen Blade требуется большая сила, ловкость и мастерство, а для неподготовленных людей это может быть опасно.\n\n3. Исходя из того, что Lumen Blade является символом Ордена Стражей, представляет собой меч с плазменным лезвием и требует высокого уровня мастерства для использования, можно сделать вывод, что Lumen Blade - это уникальное и мощное оружие, которое играет важную роль в истории и мифологии данного мира научной фантастики.\n\nОтвет: Lumen Blade - это символическое и мощное оружие в мире научной фантастики, представляющее собой меч с плазменным лезвием, эмитированным из рукоятки и поддерживаемым в поле удерживания. Для его использования требуется высокий уровень мастерства и силы.",
+      "sources": [
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 1119
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:33.680979",
+      "test_id": "438162ec",
+      "question_id": "known_03",
+      "question": "Расскажи про Krael",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает про Krael, поэтому нужно рассмотреть все упоминания этой локации в предоставленных документах.\n\n2. Из документов видно, что Krael - это ледяная планета, расположенная на окраине Иваксской туманности в секторе Аноат Грейтер Джавин. Планета имеет вулканическую активность, покрыта ледяным океаном, но на ее поверхности есть области с гейзерами и минералами. Также упоминается, что на планете развивались различные деятельности, такие как пиратство, контрабанда, а также базы и битвы между Империей и Повстанцами.\n\n3. Из найденной информации можно сделать вывод, что Krael была известна как место для экстремальных видов спорта, а также как база для пиратов и контрабандистов. Позднее планета стала местом для базы Повстанцев, но была захвачена Империей. Были описаны битвы и события, происходившие на планете.\n\n4. Ответ: Krael - ледяная планета на окраине Иваксской туманности, известная как место для экстремальных видов спорта и база для пиратов и контрабандистов. Позднее стала базой Повстанцев, но была захвачена Империей, что привело к битвам и событиям на планете.",
+      "sources": [
+        "locations/Krael.txt",
+        "locations/Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 1095
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:38.803270",
+      "test_id": "438162ec",
+      "question_id": "known_04",
+      "question": "Что произошло во время Echo Wars?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, что произошло во время Echo Wars.\n2. Из предоставленного контекста видно, что Echo Wars были галактическим конфликтом между Galactic Concord и Confederacy of Independent Systems. Война длилась с 22 по 19 год до битвы Явин 4.\n3. Во время Echo Wars произошло много событий, включая бои на различных планетах, попытки спасения заложников, атаки на важных политиков и многое другое.\n4. В результате Echo Wars было много жертв, разрушений и изменений в галактике. Война привела к большим потерям и разрушениям, а также оказала влияние на многих персонажей и миры.\n5. Из предоставленного контекста можно сделать вывод, что Echo Wars были кровопролитным и разрушительным конфликтом, охватившим всю галактику.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "events/Echo Wars.txt",
+        "characters/RN-7.txt",
+        "characters/Oren Kael.txt",
+        "characters/KX-13.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 729
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:43.229993",
+      "test_id": "438162ec",
+      "question_id": "known_05",
+      "question": "Кто такой Eldar Voss?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, кто такой Eldar Voss.\n2. Из предоставленного контекста мы видим, что Eldar Voss был мужчиной из загадочной расы, который служил в ордене Стражей в течение веков, становясь в конечном итоге Великим Мастером ордена. Он обладал исключительными навыками в бою с использованием Lumen Blade и был считался великим дуэлянтом. Он также обладал различными способностями, включая использование силы и боевую медитацию.\n3. Исходя из информации в контексте, Eldar Voss был выдающимся боевым мастером, лидером ордена и учеником многих других членов ордена. Он обладал уникальными навыками в боевых и силовых техниках, был способен использовать различные силовые способности и был великим стратегом.\n4. Ответ: Eldar Voss был мужчиной из загадочной расы, который был Великим Мастером ордена Стражей, выдающимся дуэлянтом, лидером и учителем многих членов ордена. Он обладал исключительными навыками в бою, использовал различные силовые способности и был известен своей способностью влиять на исход битвы с помощью боевой медитации.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.5,
+        "is_refusal": false,
+        "keyword_coverage": 0.5,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 1044
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:47.116176",
+      "test_id": "438162ec",
+      "question_id": "known_06",
+      "question": "Что такое Rift Engine?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, что такое Rift Engine.\n\n2. Из предоставленного контекста я вижу, что Rift Engine - это важная система двигателя звездного корабля, которая позволяет судну входить в гиперпространство для быстрого перемещения на большие расстояния со скоростью выше световой.\n\n3. Из текстов видно, что Rift Engine использует специальный состав титан-хром для выдерживания стресса, возникающего при переходе между измерениями реального пространства и гиперпространства. Также видно, что Rift Engine классифицируются по скорости на обратной шкале, где чем ниже класс, тем быстрее двигатель.\n\n4. Следовательно, Rift Engine - это двигатель звездного корабля, который позволяет судну переходить в гиперпространство для быстрого перемещения по галактике.\n\nОтвет: Rift Engine - это важная система двигателя звездного корабля, позволяющая судну входить в гиперпространство для быстрого перемещения на большие расстояния со скоростью выше световой.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 949
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:51.460631",
+      "test_id": "438162ec",
+      "question_id": "known_07",
+      "question": "Расскажи про Aurelia Prime",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает о планете Aurelia Prime, поэтому мне нужно изучить информацию о ней из предоставленных документов.\n\n2. Из документов я узнаю, что Aurelia Prime была планетой с огромным населением, покрытой огромным экуменополисом и имеющей высокие небоскребы. В разное время официальная перепись населения указывала на население от нескольких миллиардов до триллионов человек. В разное время планета была известна как Imperial Center.\n\n3. Исходя из предоставленных данных, можно сделать вывод, что Aurelia Prime была планетой с высокой плотностью населения, где процветал незаконный оборот и где существовали движения сопротивления и группы, борющиеся за свободу от имперского правления.\n\n4. Ответ: Aurelia Prime была планетой с огромным населением, покрытой экуменополисом и с высокими небоскребами. В разное время официальная перепись населения указывала на население от нескольких миллиардов до триллионов человек. Планета также была известна как Imperial Center и на ней процветал незаконный оборот, а также существовали группы сопротивления.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 1057
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:56.120038",
+      "test_id": "438162ec",
+      "question_id": "known_08",
+      "question": "Что такое Siege of Krael?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, что такое Siege of Krael.\n2. Из предоставленного контекста видно, что Siege of Krael - это событие во вселенной научной фантастики, связанное с битвой между Империей и Союзом на планете Krael.\n3. В битве участвовали Имперская армия, войска Союза и элитный отряд Rogue Squadron. Империя пыталась уничтожить Echo Base на планете Krael, но после того, как Адмирал Оццель совершил ошибку, предупредив Союз о присутствии Империи, Союз успел подготовиться к эвакуации и поднять планетарный щит.\n4. Таким образом, Siege of Krael было крупной победой для Империи и одним из крупнейших поражений для Союза во время Восстания Доминиона. Это событие стало основой для обучающей симуляции офицеров Нового Согласия и было изображено в различных играх и других работах по расширенной вселенной Star Wars.",
+      "sources": [
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 818
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:59.959625",
+      "test_id": "438162ec",
+      "question_id": "unknown_01",
+      "question": "Кто такой Xarn Velgor?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает о персонаже по имени Xarn Velgor.\n2. В предоставленном контексте упоминается персонаж по имени Ardan Velgor, который был учеником Qui-Gon Jinn и предположительно стал падшим рыцарем, превратившись в Vyrn Lord.\n3. Исходя из контекста, можно сделать предположение, что Xarn Velgor может быть связан с Ardan Velgor, возможно, это другое имя или вариация имени этого персонажа.\n4. Однако, точной информации о Xarn Velgor в предоставленном контексте нет, поэтому не могу дать точного ответа на вопрос о Xarn Velgor.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Oren Kael.txt",
+        "characters/Kade Rhaul.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 537
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:14:02.588104",
+      "test_id": "438162ec",
+      "question_id": "unknown_02",
+      "question": "Что такое Synth Flux?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает про \"Synth Flux\".\n2. Из предоставленного контекста я не нахожу информации о Synth Flux.\n3. Исходя из предоставленных документов, Synth Flux не является темой, описанной в них.\n4. К сожалению, из предоставленного контекста невозможно найти информацию о Synth Flux.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "characters/Arin Solara.txt",
+        "events/Echo Wars.txt",
+        "events/Dominion Uprising.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 290
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:14:05.562675",
+      "test_id": "438162ec",
+      "question_id": "unknown_03",
+      "question": "Что такое Void Core?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "chain_of_thought",
+      "response": "Исходя из предоставленного контекста, в нем нет упоминаний о Void Core. Поэтому, исходя из имеющейся информации, нельзя точно определить, что такое Void Core. Возможно, это технология, оружие или объект, который не был упомянут в представленных документах. Для более точного ответа на этот вопрос требуется дополнительная информация.",
+      "sources": [
+        "events/Echo Wars.txt",
+        "characters/Jax Varion.txt",
+        "events/Echo Wars.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 333
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:14:09.025000",
+      "test_id": "438162ec",
+      "question_id": "unknown_04",
+      "question": "Кто такой Darth Vader?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает, кто такой Darth Vader.\n2. Из предоставленного контекста видно, что Darth Vader является учеником императора и аппрентисом Сидиуса. Он был изуродован и оставлен на умирание после поединка с Ореном Каелом.\n3. Darth Vader известен своими силовыми способностями, использованием светового меча и тем, что он сначала был Джедаем по имени Анакин Скайуокер.\n4. Ответ: Darth Vader - это могущественный ситх, бывший Джедай по имени Анакин Скайуокер, который стал аппрентисом императора Сидиуса и проводником темной стороны Силы.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Kade Rhaul.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 546
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:14:15.400935",
+      "test_id": "438162ec",
+      "question_id": "unknown_05",
+      "question": "Что такое Death Star?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "chain_of_thought",
+      "response": "1. Пользователь спрашивает о том, что такое Death Star.\n2. Из предоставленного контекста можно выяснить, что Death Star - это огромная боевая станция, которая была построена Империей. Она имеет диаметр 120 километров, оснащена суперлазером, способным уничтожить целую планету, и является неуязвимой даже для самых крупных флотов.\n3. Death Star вызвала сильное недовольство в иерархии Имперской армии из-за стратегии ужаса, которую она подразумевала. Однако для Империи она была попыткой исправить стратегию повстанцев, которые использовали скрытые базы и наносили удары в ответ на политику ужаса, предложенную Таркинской доктриной.\n4. Исходя из этой информации, можно сделать вывод, что Death Star - это огромное космическое оружие, созданное Империей для устрашения и подавления повстанцев и любых противников. Она представляет собой символ власти и ужаса, способного уничтожить целые планеты.\n5. Информация из предоставленного контекста достаточна для ответа на вопрос о том, что такое Death Star.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "events/Dominion Uprising.txt",
+        "characters/Arin Solara.txt",
+        "events/Dominion Uprising.txt",
+        "locations/Dusara.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 999
+      }
+    }
+  ]
+}

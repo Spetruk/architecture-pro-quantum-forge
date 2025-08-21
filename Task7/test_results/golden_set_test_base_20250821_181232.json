@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "test_id": "438162ec",
+    "timestamp": "2025-08-21T18:12:32.736378",
+    "technique": "base",
+    "total_time": 32.6153290271759,
+    "questions_count": 13
+  },
+  "statistics": {
+    "overall_accuracy": 0.7692307692307693,
+    "total_questions": 13,
+    "correct_answers": 10,
+    "success_questions": {
+      "total": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    "failure_questions": {
+      "total": 5,
+      "correct": 2,
+      "accuracy": 0.4
+    },
+    "average_completeness": 0.47435897435897434,
+    "categories": {
+      "characters": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "technologies": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "locations": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "events": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "removed_entities": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666
+      },
+      "external_knowledge": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "timestamp": "2025-08-21T18:12:01.668951",
+      "test_id": "438162ec",
+      "question_id": "known_01",
+      "question": "Кто такой Arin Solara?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Arin Solara - это персонаж, обладающий способностями использования телекинеза с помощью Lumen Blade, а также другими психическими силами. Он также был обучен различным навыкам и стал лидером в битве на планете Элессия.",
+      "sources": [
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 218
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:03.423310",
+      "test_id": "438162ec",
+      "question_id": "known_02",
+      "question": "Что такое Lumen Blade?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Lumen Blade - это формальное оружие Рыцаря Стражей.",
+      "sources": [
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 51
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:07.941424",
+      "test_id": "438162ec",
+      "question_id": "known_03",
+      "question": "Расскажи про Krael",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Krael - это планета, находящаяся на окраине туманности Ивакс в секторе Аноат Грейтер Джавин. Она обладает холодным климатом, с поверхностью, покрытой замерзшим океаном и вулканической активностью. Планета стала базой для повстанцев после того, как Арин Солара оказался там. Позднее на планете произошло осада, в результате которой повстанцы потерпели поражение и вынуждены были эвакуироваться.",
+      "sources": [
+        "locations/Krael.txt",
+        "locations/Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 393
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:09.903404",
+      "test_id": "438162ec",
+      "question_id": "known_04",
+      "question": "Что произошло во время Echo Wars?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Во время Echo Wars произошла масштабная галактическая битва между Галактическим Конкордом и Конфедерацией Независимых Систем.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "events/Echo Wars.txt",
+        "characters/RN-7.txt",
+        "characters/Oren Kael.txt",
+        "characters/KX-13.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 125
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:11.954148",
+      "test_id": "438162ec",
+      "question_id": "known_05",
+      "question": "Кто такой Eldar Voss?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Eldar Voss - это выдающийся мастер ордена Стражей, великий дуэлянт и мастер применения световых мечей. Он был лидером ордена и обладал огромным мастерством в боевых и силовых навыках. Также он был известен своей способностью обучать молодое поколение и провел множество битв во время Эхо Войн.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.5,
+        "is_refusal": false,
+        "keyword_coverage": 0.5,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 293
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:13.706932",
+      "test_id": "438162ec",
+      "question_id": "known_06",
+      "question": "Что такое Rift Engine?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Rift Engine - это важная система двигателя звездного корабля, которая позволяет судну входить в гиперпространство для быстрого перемещения на огромные расстояния быстрее световой скорости.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 188
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:18.237014",
+      "test_id": "438162ec",
+      "question_id": "known_07",
+      "question": "Расскажи про Aurelia Prime",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Aurelia Prime - планета с многослойным обществом, где поверхность покрыта огромным городом и населением от ста миллиардов до нескольких триллионов человек. На планете процветал незаконный оборот товаров, таких как рабы и запрещенные произведения искусства, под покровительством императора Палпатина. Кроме того, на планете существовали клетки местного сопротивления, связанные с Отрядом Конкордии. После ухода Палпатина в систему Сильван Рич, на планете начали строить две огромные космические станции, которые затем были украдены Энниксом Девианом для его Доминиона.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 567
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:21.708878",
+      "test_id": "438162ec",
+      "question_id": "known_08",
+      "question": "Что такое Siege of Krael?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "base",
+      "response": "Siege of Krael - это важная победа для Sable Dominion и одно из худших поражений Альянса во время Восстания Доминиона. Это было имперское вторжение с целью уничтожить базу Эхо на отдаленной ледяной планете Краель. Вторжение началось после того, как имперская флотилия под командованием адмирала Кендала Оззеля вышла из световой скорости слишком близко к системе Краель, предупредив Альянс о присутствии имперцев. В результате Вейдер казнил Оззеля за эту фатальную ошибку и немедленно повысил капитана Фирмуса Питта на его место.",
+      "sources": [
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 528
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:23.767389",
+      "test_id": "438162ec",
+      "question_id": "unknown_01",
+      "question": "Кто такой Xarn Velgor?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "base",
+      "response": "Ardan Velgor - это молодой человек, которого привел к Совету стражей Qui-Gon Jinn на планету Aurelia Prime.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Oren Kael.txt",
+        "characters/Kade Rhaul.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 107
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:24.935735",
+      "test_id": "438162ec",
+      "question_id": "unknown_02",
+      "question": "Что такое Synth Flux?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "base",
+      "response": "Информация о Synth Flux не найдена в базе знаний.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "characters/Arin Solara.txt",
+        "events/Echo Wars.txt",
+        "events/Dominion Uprising.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 1.0,
+        "is_refusal": true,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 49
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:26.977702",
+      "test_id": "438162ec",
+      "question_id": "unknown_03",
+      "question": "Что такое Void Core?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "base",
+      "response": "Информация о Void Core не найдена в базе знаний.",
+      "sources": [
+        "events/Echo Wars.txt",
+        "characters/Jax Varion.txt",
+        "events/Echo Wars.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 1.0,
+        "is_refusal": true,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 48
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:29.198612",
+      "test_id": "438162ec",
+      "question_id": "unknown_04",
+      "question": "Кто такой Darth Vader?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "base",
+      "response": "Darth Vader - это ученик Императора, который был ужасно изуродован и оставлен на смерть после поединка с Ореном Каэлем. Император приказал подготовить медицинскую капсулу для своего ученика и стремился найти способ сохранить его жизнь.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Kade Rhaul.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 235
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:32.230705",
+      "test_id": "438162ec",
+      "question_id": "unknown_05",
+      "question": "Что такое Death Star?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "base",
+      "response": "Death Star - это огромная звезда смерти, которая была построена Империей. Она имела диаметр в 120 километров и основное оружие - суперлазер, способный уничтожить целую планету. Она была неприступной даже для самых крупных флотов и была частью стратегии ужаса, предложенной в Доктрине Таркина. Создание Death Star было попыткой Империи исправить стратегию повстанцев и устрашить галактику ужасными мерами отпора.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "events/Dominion Uprising.txt",
+        "characters/Arin Solara.txt",
+        "events/Dominion Uprising.txt",
+        "locations/Dusara.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 411
+      }
+    }
+  ]
+}

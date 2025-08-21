@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "test_id": "438162ec",
+    "timestamp": "2025-08-21T18:13:15.373547",
+    "technique": "few_shot",
+    "total_time": 40.626598834991455,
+    "questions_count": 13
+  },
+  "statistics": {
+    "overall_accuracy": 0.6153846153846154,
+    "total_questions": 13,
+    "correct_answers": 8,
+    "success_questions": {
+      "total": 8,
+      "correct": 8,
+      "accuracy": 1.0
+    },
+    "failure_questions": {
+      "total": 5,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "average_completeness": 0.2948717948717948,
+    "categories": {
+      "characters": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "technologies": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "locations": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "events": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "removed_entities": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "external_knowledge": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "timestamp": "2025-08-21T18:12:36.566189",
+      "test_id": "438162ec",
+      "question_id": "known_01",
+      "question": "Кто такой Arin Solara?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Arin Solara - это сильный и мудрый Wardens, обладающий способностью использовать световое меч Лумен для принесения света в галактику, развивающий свои телекинетические способности и обладающий умением использовать и контролировать силу.",
+      "sources": [
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt",
+        "characters/Arin Solara.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 236
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:41.417987",
+      "test_id": "438162ec",
+      "question_id": "known_02",
+      "question": "Что такое Lumen Blade?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Lumen Blade - это уникальное оружие, символ Ордена Стражей, известное также как лазерный меч или космический меч. Он представляет собой лезвие из чистой плазмы, излучаемой из рукоятки и поддерживаемое в поле сдерживания. Рукоятка обычно изготавливается самим владельцем, чтобы соответствовать его потребностям, предпочтениям и стилю. Оружие требует большой силы и ловкости для владения, и для неопытных использование его может быть опасным. Однако, в руках эксперта Лумен Блейд вызывает уважение и страх.",
+      "sources": [
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt",
+        "technologies/Lumen Blade.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 504
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:46.957386",
+      "test_id": "438162ec",
+      "question_id": "known_03",
+      "question": "Расскажи про Krael",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Krael - это планета, расположенная на окраине туманности Ивакс в секторе Аноат большого Явина. Она орбитировала вокруг сине-белой звезды Krael на широкой эллиптической орбите. Поверхность планеты покрыта замерзшим океаном, за исключением областей, где вулканические трещины открывали паровые отверстия, откладывая породу и минералы на темных пятнах на ледяных равнинах. Несколько горных цепей прорывались через вечные ледяные плато, некоторые из них были геологически активными. Течения океана под южным полушарием вызывали регулярную сейсмическую активность, приводя к постоянно меняющемуся ландшафту пещер и туннелей. На планете также находился редкий грибной рост - кэш лумни-спайса. Кроме того, на планете проходили различные события, такие как гонки на скоростных судах и битвы между Империей и повстанцами.",
+      "sources": [
+        "locations/Krael.txt",
+        "locations/Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 812
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:50.331615",
+      "test_id": "438162ec",
+      "question_id": "known_04",
+      "question": "Что произошло во время Echo Wars?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Во время Echo Wars произошла крупная галактическая конфликт между Галактическим Согласием и Конфедерацией Независимых Систем. Этот конфликт был назван в честь битвы между Конкордатскими Легионами и Дроидской Армией Сепаратистов на множестве населенных миров.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "events/Echo Wars.txt",
+        "characters/RN-7.txt",
+        "characters/Oren Kael.txt",
+        "characters/KX-13.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 258
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:56.293378",
+      "test_id": "438162ec",
+      "question_id": "known_05",
+      "question": "Кто такой Eldar Voss?",
+      "category": "characters",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Eldar Voss - это мужчина неизвестной таинственной расы, который служил как член Ордена Стражей, затем стал Главным Мастером Ордена и являлся исключительным мастером ведения боя с помощью Lumen Blade. Он был известен как мастер меча и величайший дуэлянт в Ордене Стражей, превосходя даже Корина Ваала и Лорда Серрика. Он также был учителем и обучал почти всех членов Ордена, стремясь передать свой опыт следующим поколениям. Однако, из-за его неудачи в распознавании того, что Верховный Канцлер Палпатин на самом деле был ответственен за вспышку Эхо Войн и был Вирн Лордом Воратом Сэйблом, Орден Стражей был уничтожен, и Эльдар Восс выжил и ушел в изгнание на планету болотных болот Вирн Свэйл.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.5,
+        "is_refusal": false,
+        "keyword_coverage": 0.5,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 693
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:12:58.878886",
+      "test_id": "438162ec",
+      "question_id": "known_06",
+      "question": "Что такое Rift Engine?",
+      "category": "technologies",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Rift Engine - это важная система двигателя для звездных кораблей, которая позволяет им входить в гиперпространство для быстрого перемещения по космосу быстрее световой скорости.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.3333333333333333,
+        "is_refusal": false,
+        "keyword_coverage": 0.3333333333333333,
+        "keyword_matches": 1,
+        "chunks_found": 5,
+        "response_length": 177
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:02.090023",
+      "test_id": "438162ec",
+      "question_id": "known_07",
+      "question": "Расскажи про Aurelia Prime",
+      "category": "locations",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Aurelia Prime - это планета с молодыми и различными лунами, которые были изменены в своих орбитах из-за действий dovin basals, вызвавших разрушение крупнейшей луны планеты. После прихода живой планеты Zonama Sekot, произошли изменения в системе, включая коллапс Rainbow Bridge и вулканические извержения на Aurelia Prime. На планете произошло множество событий, включая оккупацию Yuuzhan Vong и последующее восстановление планеты Галактическим союзом свободных альянсов во время Рекаптуры Aurelia Prime.",
+      "sources": [
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt",
+        "locations/Aurelia Prime.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 503
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:04.570530",
+      "test_id": "438162ec",
+      "question_id": "known_08",
+      "question": "Что такое Siege of Krael?",
+      "category": "events",
+      "expected_type": "success",
+      "technique": "few_shot",
+      "response": "Siege of Krael - это важная победа для Sable Dominion и одно из худших поражений для Alliance to Restore the Concord во время Dominion Uprising. Это было имперское вторжение с целью уничтожения Echo Base, скрытой на отдаленной ледяной планете Krael.",
+      "sources": [
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "events/Siege of Krael.txt",
+        "locations/Krael.txt",
+        "locations/Krael.txt"
+      ],
+      "evaluation": {
+        "correct": true,
+        "completeness": 0.6666666666666666,
+        "is_refusal": false,
+        "keyword_coverage": 0.6666666666666666,
+        "keyword_matches": 2,
+        "chunks_found": 5,
+        "response_length": 249
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:05.907440",
+      "test_id": "438162ec",
+      "question_id": "unknown_01",
+      "question": "Кто такой Xarn Velgor?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "few_shot",
+      "response": "Информации о Xarn Velgor в предоставленном контексте нет.",
+      "sources": [
+        "characters/Eldar Voss.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt",
+        "characters/Oren Kael.txt",
+        "characters/Kade Rhaul.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 57
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:07.296304",
+      "test_id": "438162ec",
+      "question_id": "unknown_02",
+      "question": "Что такое Synth Flux?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "few_shot",
+      "response": "Информации о Synth Flux нет в предоставленных документах.",
+      "sources": [
+        "technologies/Rift Engine.txt",
+        "characters/Arin Solara.txt",
+        "events/Echo Wars.txt",
+        "events/Dominion Uprising.txt",
+        "technologies/Rift Engine.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 57
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:08.716267",
+      "test_id": "438162ec",
+      "question_id": "unknown_03",
+      "question": "Что такое Void Core?",
+      "category": "removed_entities",
+      "expected_type": "failure",
+      "technique": "few_shot",
+      "response": "Информации о Void Core нет в предоставленных документах.",
+      "sources": [
+        "events/Echo Wars.txt",
+        "characters/Jax Varion.txt",
+        "events/Echo Wars.txt",
+        "characters/Arin Solara.txt",
+        "characters/Eldar Voss.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 56
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:11.318399",
+      "test_id": "438162ec",
+      "question_id": "unknown_04",
+      "question": "Кто такой Darth Vader?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "few_shot",
+      "response": "Darth Vader - это ученик Императора Палпатина, который был известен своими силовыми способностями и тем, что был ранее известен как Анакин Скайуокер до его падения на Темной Стороне Силы.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Kade Rhaul.txt",
+        "characters/Vorath Sable.txt",
+        "characters/Vorath Sable.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 187
+      }
+    },
+    {
+      "timestamp": "2025-08-21T18:13:14.870970",
+      "test_id": "438162ec",
+      "question_id": "unknown_05",
+      "question": "Что такое Death Star?",
+      "category": "external_knowledge",
+      "expected_type": "failure",
+      "technique": "few_shot",
+      "response": "Информация о Death Star: Death Star - это огромная боевая станция, способная уничтожить целую планету с помощью сверхлазера. Ее строительство заняло почти девятнадцать лет, и она стала самым крупным звездолетом, когда была наконец завершена в 0 BBY. Управлялось Death Star адмиралом Conan Antonio Motti, который считал ее \"конечной силой во Вселенной\" и предлагал использовать ее для достижения целей Империи.",
+      "sources": [
+        "characters/Vorath Sable.txt",
+        "events/Dominion Uprising.txt",
+        "characters/Arin Solara.txt",
+        "events/Dominion Uprising.txt",
+        "locations/Dusara.txt"
+      ],
+      "evaluation": {
+        "correct": false,
+        "completeness": 0.0,
+        "is_refusal": false,
+        "keyword_coverage": 0.0,
+        "keyword_matches": 0,
+        "chunks_found": 5,
+        "response_length": 409
+      }
+    }
+  ]
+}

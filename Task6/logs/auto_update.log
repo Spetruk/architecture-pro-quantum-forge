@@ -1,0 +1,167 @@
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - ЗАПУСК УПРОЩЕННОГО АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/blockchain_overview.txt
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_ai_technology.txt
+2025-08-18 19:52:03,498 - SimpleAutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/future_technologies.txt
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Найдено 3 новых/измененных файлов
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Скопирован файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/blockchain_overview.txt -> /Users/av/Developer/architecture-pro-quantum-forge/Task6/knowledge_base/incoming/blockchain_overview.txt
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Скопирован файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_ai_technology.txt -> /Users/av/Developer/architecture-pro-quantum-forge/Task6/knowledge_base/incoming/new_ai_technology.txt
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Скопирован файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/future_technologies.txt -> /Users/av/Developer/architecture-pro-quantum-forge/Task6/knowledge_base/incoming/future_technologies.txt
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Обновление векторного индекса...
+2025-08-18 19:52:03,499 - SimpleAutoUpdateManager - INFO - Запуск build_index.py для обновления индекса...
+2025-08-18 19:52:03,521 - SimpleAutoUpdateManager - ERROR - Ошибка выполнения build_index.py: код 1
+2025-08-18 19:52:03,522 - SimpleAutoUpdateManager - ERROR - build_index error: File "/Users/av/Developer/architecture-pro-quantum-forge/Task6/build_index.py", line 144
+2025-08-18 19:52:03,522 - SimpleAutoUpdateManager - ERROR - build_index error: if not indexer.chunks:
+2025-08-18 19:52:03,522 - SimpleAutoUpdateManager - ERROR - build_index error: IndentationError: unexpected indent
+2025-08-18 19:52:03,522 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 19:52:03,522 - SimpleAutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO -   Время выполнения: 0.02 сек
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO -   Найдено новых файлов: 3
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO -   Скопировано файлов: 3
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO -   Индекс обновлен: Нет
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO -   Ошибок: 1
+2025-08-18 19:52:03,523 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 20:02:17,293 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 20:02:17,293 - SimpleAutoUpdateManager - INFO - ЗАПУСК УПРОЩЕННОГО АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-18 20:02:17,293 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 20:02:17,294 - SimpleAutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO - Новых файлов не найдено
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO -   Время выполнения: 0.0 сек
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO -   Найдено новых файлов: 0
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO -   Скопировано файлов: 0
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO -   Индекс обновлен: Нет
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO -   Ошибок: 0
+2025-08-18 20:02:17,295 - SimpleAutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_technology_quantum_computing.txt
+2025-08-20 20:13:51,743 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/future_work_trends.txt
+2025-08-20 20:13:51,744 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/ai_ethics_guidelines.txt
+2025-08-20 20:13:51,744 - AutoUpdateManager - INFO - Найдено 3 новых/измененных файлов
+2025-08-20 20:13:51,744 - AutoUpdateManager - INFO - Обработан файл /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_technology_quantum_computing.txt: 1 чанков
+2025-08-20 20:13:51,745 - AutoUpdateManager - INFO - Обработан файл /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/future_work_trends.txt: 1 чанков
+2025-08-20 20:13:51,745 - AutoUpdateManager - INFO - Обработан файл /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/ai_ethics_guidelines.txt: 1 чанков
+2025-08-20 20:13:52,998 - AutoUpdateManager - INFO - Добавлено 3 чанков в векторную БД
+2025-08-20 20:13:53,011 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO -   Время выполнения: 1.27 сек
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO -   Обработано файлов: 3
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO -   Добавлено чанков: 3
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:13:53,012 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,020 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,020 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:13:55,020 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,021 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:13:55,021 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_technology_quantum_computing.txt
+2025-08-20 20:13:55,021 - AutoUpdateManager - INFO - Найдено 1 новых/измененных файлов
+2025-08-20 20:13:55,022 - AutoUpdateManager - INFO - Обработан файл /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/new_technology_quantum_computing.txt: 1 чанков
+2025-08-20 20:13:55,187 - AutoUpdateManager - INFO - Добавлено 1 чанков в векторную БД
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO -   Время выполнения: 0.17 сек
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO -   Обработано файлов: 1
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO -   Добавлено чанков: 1
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:13:55,188 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/security_research.txt
+2025-08-20 20:13:55,189 - AutoUpdateManager - INFO - Найдено 1 новых/измененных файлов
+2025-08-20 20:13:55,190 - AutoUpdateManager - WARNING - Файл помещен в карантин: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/security_research.txt -> /Users/av/Developer/architecture-pro-quantum-forge/Task6/quarantine/20250820_201355_security_research.txt (причина: Обнаружен потенциально вредоносный контент)
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO -   Время выполнения: 0.0 сек
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO -   Обработано файлов: 0
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO -   Добавлено чанков: 0
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,191 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:13:55,192 - AutoUpdateManager - INFO - Найден новый/измененный файл: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/security_research.txt
+2025-08-20 20:13:55,192 - AutoUpdateManager - INFO - Найдено 1 новых/измененных файлов
+2025-08-20 20:13:55,192 - AutoUpdateManager - WARNING - Файл помещен в карантин: /Users/av/Developer/architecture-pro-quantum-forge/Task6/data_sources/incoming/security_research.txt -> /Users/av/Developer/architecture-pro-quantum-forge/Task6/quarantine/20250820_201355_security_research.txt (причина: Обнаружен потенциально вредоносный контент)
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO -   Время выполнения: 0.0 сек
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO -   Обработано файлов: 0
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO -   Добавлено чанков: 0
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:13:55,193 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:19:15,595 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-20 20:19:15,596 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:19:15,596 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:19:15,596 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:19:15,596 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:19:15,596 - AutoUpdateManager - INFO - Найден новый/измененный файл: data_sources/incoming/security_research.txt
+2025-08-20 20:19:15,597 - AutoUpdateManager - INFO - Найдено 1 новых/измененных файлов
+2025-08-20 20:19:15,598 - AutoUpdateManager - WARNING - Файл помещен в карантин: data_sources/incoming/security_research.txt -> quarantine/20250820_201915_security_research.txt (причина: Обнаружен потенциально вредоносный контент)
+2025-08-20 20:19:15,640 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:19:15,640 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:19:15,640 - AutoUpdateManager - INFO -   Время выполнения: 0.04 сек
+2025-08-20 20:19:15,641 - AutoUpdateManager - INFO -   Обработано файлов: 0
+2025-08-20 20:19:15,641 - AutoUpdateManager - INFO -   Добавлено чанков: 0
+2025-08-20 20:19:15,641 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:19:15,641 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:21,437 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-20 20:20:21,437 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:21,437 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:20:21,437 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:21,437 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:20:21,438 - AutoUpdateManager - INFO - Новых файлов не найдено
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO -   Время выполнения: 0.04 сек
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO -   Обработано файлов: 0
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO -   Добавлено чанков: 0
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:20:21,480 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:37,922 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-20 20:20:37,922 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:37,922 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-20 20:20:37,922 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:37,922 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-20 20:20:37,923 - AutoUpdateManager - INFO - Найден новый/измененный файл: data_sources/incoming/blockchain_overview.txt
+2025-08-20 20:20:37,923 - AutoUpdateManager - INFO - Найден новый/измененный файл: data_sources/incoming/new_ai_technology.txt
+2025-08-20 20:20:37,923 - AutoUpdateManager - INFO - Найден новый/измененный файл: data_sources/incoming/future_technologies.txt
+2025-08-20 20:20:37,923 - AutoUpdateManager - INFO - Найдено 3 новых/измененных файлов
+2025-08-20 20:20:37,924 - AutoUpdateManager - INFO - Обработан файл data_sources/incoming/blockchain_overview.txt: 1 чанков
+2025-08-20 20:20:37,924 - AutoUpdateManager - INFO - Обработан файл data_sources/incoming/new_ai_technology.txt: 1 чанков
+2025-08-20 20:20:37,925 - AutoUpdateManager - INFO - Обработан файл data_sources/incoming/future_technologies.txt: 1 чанков
+2025-08-20 20:20:39,176 - AutoUpdateManager - INFO - Добавлено 3 чанков в векторную БД
+2025-08-20 20:20:39,189 - AutoUpdateManager - INFO - ============================================================
+2025-08-20 20:20:39,189 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-20 20:20:39,190 - AutoUpdateManager - INFO -   Время выполнения: 1.27 сек
+2025-08-20 20:20:39,190 - AutoUpdateManager - INFO -   Обработано файлов: 3
+2025-08-20 20:20:39,190 - AutoUpdateManager - INFO -   Добавлено чанков: 3
+2025-08-20 20:20:39,190 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-20 20:20:39,190 - AutoUpdateManager - INFO - ============================================================
+2025-08-21 12:41:18,257 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-21 12:48:39,879 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-21 12:51:28,266 - AutoUpdateManager - INFO - Компоненты инициализированы успешно
+2025-08-21 12:51:28,266 - AutoUpdateManager - INFO - ============================================================
+2025-08-21 12:51:28,266 - AutoUpdateManager - INFO - ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ИНДЕКСА
+2025-08-21 12:51:28,266 - AutoUpdateManager - INFO - ============================================================
+2025-08-21 12:51:28,266 - AutoUpdateManager - INFO - Сканирование источников данных...
+2025-08-21 12:51:28,267 - AutoUpdateManager - INFO - Найден новый/измененный файл: data_sources/incoming/test_simple.txt
+2025-08-21 12:51:28,267 - AutoUpdateManager - INFO - Найдено 1 новых/измененных файлов
+2025-08-21 12:51:28,267 - AutoUpdateManager - INFO - Обработан файл data_sources/incoming/test_simple.txt: 1 чанков
+2025-08-21 12:51:29,037 - AutoUpdateManager - INFO - Добавлено 1 чанков в векторную БД
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO - ============================================================
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO - РЕЗУЛЬТАТЫ ОБНОВЛЕНИЯ:
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO -   Время выполнения: 0.79 сек
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO -   Обработано файлов: 1
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO -   Добавлено чанков: 1
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO -   Ошибок: 0
+2025-08-21 12:51:29,052 - AutoUpdateManager - INFO - ============================================================
