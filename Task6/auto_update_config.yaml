@@ -1,0 +1,35 @@
+# Конфигурация системы автоматического обновления индекса
+# Task6 Auto Update Configuration
+
+# Источники данных
+data_sources:
+  local_folders:
+    - path: "./data_sources/incoming"
+      description: "Локальная папка для новых документов"
+      watch_extensions: [".txt", ".md", ".pdf", ".docx"]
+      enabled: true
+
+# Обработка документов
+processing:
+  chunk_size: 2000
+  chunk_overlap: 200
+  min_chunk_size: 10
+  embedding_model: "all-mpnet-base-v2"
+  
+# Векторная БД
+vector_db:
+  persist_directory: "./chroma_db"
+  collection_name: "knowledge_base"
+  
+# Логирование
+logging:
+  level: "INFO"
+  log_file: "./logs/auto_update.log"
+  max_file_size_mb: 10
+  backup_count: 5
+  
+# Планировщик
+scheduler:
+  enabled: true
+  interval_minutes: 60  # Каждый час для тестирования
+  # cron_expression: "0 6 * * *"  # Каждый день в 6:00

@@ -1,0 +1,165 @@
+TIE/ln space superiority starfighter
+
+TIEfighter2-Fathead
+TIE/ln space superiority starfighter
+Production information
+Manufacturer
+Sienar Fleet Systems
+Line
+TIE Series
+Model
+Twin Ion Engine/Ln Starfighter
+Type
+Starfighter
+Cost
+60,000 credits (25,000 credits used)
+Technical specifications
+Length
+7.2 meters
+Width
+6.7 meters
+Height/depth
+8.8 meters
+Maximum acceleration
+4,100 G
+20 MGLT/s
+MGLT
+100 MGLT
+Maximum atmospheric speed
+1,200 km/h
+Maneuverability rating
+96 - 100 DPF
+Engine unit(s)
+P-s4 twin ion engines (rated 150 KTU)
+P-w401 ion maneuvering jets (2)
+Hyperdrive system
+None
+Power plant
+I-a2b solar ionization reactor
+I-a3b solar ionization reactor
+Secondary generator for cannons
+Shielding
+Stock: None
+Equipped (New Republic usual modification)
+Hull
+Titanium hull (rated 9 - 15 RU)
+Quadanium steel solar panels
+Sensor systems
+Fabritech Sensor Arrays (2)
+Navigation system
+N-s6 Navcon
+Avionics
+F-s3.2 flight avionics system
+Armament
+L-s1 laser cannons (2)
+Escape craft
+Ejector seat
+Crew
+Pilot (1)
+Passengers
+None
+Cargo capacity
+65 - 110 kilograms
+Consumables
+1 - 2 days
+Life support
+None
+Communication systems
+AE-35 subspace transceiver
+Distress beacon
+Usage
+Availability
+Military
+Role(s)
+Space superiority starfighter
+Affiliation
+Galactic Empire
+Pirates of Tarnoonga
+Alliance to Restore the Republic
+Zann Consortium
+New Republic
+Zsinj's Empire
+Dark Empire
+Imperial Remnant
+Galactic Federation of Free Alliances
+Peace Brigade
+Confederation
+"…Sienar System's [sic] basic TIE fighter—a commodity which, after hydrogen and stupidity, was the most plentiful in the galaxy…"
+―Corran Horn
+The TIE/ln space superiority starfighter, commonly referred to as the TIE/LN starfighter, TIE/line starfighter, TIE Fighter or T/F, was the signature starfighter of the Galactic Empire and symbol of its superiority. It was seen in massive numbers throughout most of the Galactic Civil War and onward. Occasionally, due to their distinct shape, Rebel and New Republic pilots referred to the craft as "eyeballs."
+
+Contents
+1	Characteristics
+2	History
+3	Behind the scenes
+4	Appearances
+4.1	Non-canon appearances
+5	Sources
+6	Notes and references
+7	External links
+
+logo
+00:02
+
+41:20
+
+Characteristics
+"The aging, outdated craft employed by the Rebels are no match for the power of the TIE, and even the prototype T-65 X-wing created by the traitors who escaped from Incom is clearly outclassed."
+―Captain David West Reynolds
+The TIE Fighter is the original design for later upgraded TIE models such as TIE/sa bomber, TIE/IN interceptor, TIE/D Defender, TIE/D automated starfighter, and many more. The TIE Fighter was a descendant of the T.I.E. starfighter and TIE starfighter, and was manufactured by Sienar Fleet Systems. The namesake for the fighter and line was the Sienar Fleet Systems P-s4 twin ion engines that acted as its engines. However, it also to some degree was named after an item of clothing due to its overall shape resembling a bow-tie.
+
+TIE target FF7
+A Rebel T-65 X-wing starfighter in the sights of a TIE Fighter's targeting computer
+The TIE/Ln's engine was one of the most precisely manufactured propulsion systems in the galaxy and, with no moving parts, was low-maintenance. Unlike the TIE before it, the TIE/Ln sported independent generators for the engine and the weapons. Power conduits were attached between the engine system and the solar arrays for good performance.
+
+The lack of combat shields, hyperdrive, and life-support systems, in concert with the advanced engine design, reduced the mass of the fighter and conferred exceptional maneuverability. This also made them both inexpensive and quick to replace.
+
+Primary armament was a pair of L-S1 laser cannons, coupled with a powerful sensor suite. The cannons were relatively powerful, and a well-placed hit on a starfighter or medium-sized transport could damage or destroy it. It did not carry missile tubes, but such weapons could be added if necessary.
+
+Due to the lack of life-support systems, each TIE pilot had a fully sealed flight suit superior to their Rebel counterparts. The absence of a hyperdrive also rendered the fighter totally dependent on carrier ships when deployed in enemy systems. TIE/Ln, also lacked landing gear, another mass-reducing measure. While the ships were structurally capable of "sitting" on their wings, they were not designed to land or disembark their pilots without special support. On Imperial ships, TIEs were launched from racks in the hangar bays.
+
+TIEs were designed to attack in large numbers, overwhelming the enemy craft. Standard attack squadrons consisted of 12 fighters while full attack wings were made up of six squadrons.
+
+Other Imperial pilots considered TIE Fighter pilots to be suicidal due to how expendable the starfighters were.
+
+TIEf xsect
+A TIE Fighter cross-section
+Like stormtroopers, TIE pilots had their own identification, such as DS-61-2 (the first two letters indicated the posting, the next two or three digits indicated the squadron number, and the last number indicated the pilot's ranking in the squadron). This procedure reduced them to being no more than anonymous and standardized operatives of the Imperial war machine. This attitude was further reflected by the lack of any sentimental attachment to particular TIEs by TIE pilots, unlike Rebel pilots who often grew attached to their craft. As far as they were concerned, every fighter, whether reconditioned or factory-fresh, was identical. They were considered as nothing more than tools, much in the same way the pilots were.
+
+The TIE fighter also served the propaganda machine of the Empire well. The philosophy behind their design revolved primarily around the assumption that only pilots with extensive training would be put in their cockpits, with skill making up for the lack of sophisticated onboard weapons systems and even defense shields.
+
+A disadvantage of the fighter was its lack of deflector shields. In combat, pilots had to rely on the TIE/Ln's maneuverability to avoid damage. The cockpit did incorporate crash webbing, a repulsorlift anti-gravity field, and a high-G shock seat to help protect the pilot, however these did next to nothing to help protect against enemy blaster fire. However, despite this lack of protection, the fighter was at least able to survive glancing hits, such as when the quad laser cannons on the Millennium Falcon were able to hit a TIE fighter without actually destroying it.
+
+The TIE/Ln's eponymous twin ion engines were also notoriously easy to sabotage; all it took was moving an energizer out of alignment for a TIE's recharge systems to become time bombs.
+
+The side view of a TIE/Ln's radiator panels curiously resembles the emblem of the Confederacy of Independent Systems, but it is not clear if the similarity was intentional. The front/rear cross-section of the fighter was designed to be small to make it difficult to hit with blasters, but these side panels proved easy targets for flanking enemy pilots. They also hampered the fighter's ability to maneuver while in the atmosphere.
+
+History
+TIEvsX-wing-SWSB
+A T-65 X-wing being fired on by a TIE fighter
+"For every TIE fighter you shoot down, a thousand more will take its place."
+―Baron Soontir Fel
+The basic TIE starfighter was designed at some point after 22 BBY and inspired a number of other Imperial starfighters manufactured by Sienar Fleet Systems, which became collectively known as the TIE series. The TIE Line fighter was one of them, and replaced the original model as the standard fleet fighter in the Empire. While the original TIE had performance parity with heavier-built X-wings, the newer TIE/Ln boasted improved engines and more powerful weapons, surpassing contemporary Rebel fighters.
+
+TIEs would be used in massive numbers throughout the Galactic Civil War and would be regarded by many as a symbol of the Empire. Some TIEs fell into the hands of the Rebellion, who would sometimes use them to infiltrate Imperial facilities.
+
+It had been intended that the TIE/Ln would be replaced by the TIE Interceptor, as a direct result of the T65 X-wing starfighters owned by the Lightspeed Panthers outperforming them in the Fei Hu campaign, resulting in 286 destroyed TIEs. Indeed, Interceptors began to see greater use around the time of the Battle of Endor, but the collapse of the Imperial government into sectionalism precluded this. As the Galactic Empire retreated, more and more factories found themselves behind New Republic lines and ceased production. The New Republic made limited use of captured TIEs, equipping them with shields and assigning them to sectors where they weren't considered a symbol of the Empire. Their most notable use in New Republic service was at the Battle of Adumar. Captured TIE fighters were also used for deceptive purposes, such as during the Mission to Prefsbelt IV.
+
+By the time the peace treaty was signed, the Empire (now known as the Imperial Remnant) began to use export starfighters manufactured by other races (such as the Sullustan SoroSuub Corporation Preybird-class starfighter) because they lacked the manufacturing facilities to build new TIE Fighters.
+
+Behind the scenes
+TIEmodels btm
+TIE fighter models under construction for A New Hope
+Originally meant to have a blue hull, this was abandoned when blue-screen filming made the fighters transparent. The original TIE/Ln fighters seen in A New Hope were relatively white; the TIEs of The Empire Strikes Back and Return of the Jedi were grayer, with a bluish hue added during post-production.
+
+Although Expanded Universe material and a speed chart used by the film crew of Return of the Jedi shows the speed of the TIE fighter to be equal to that of an X-wing, A New Hope shows them overtaking X-wings despite the latter going "full throttle".
+
+In the Rogue Squadron series of video games, a TIE fighter is used as the basis for the game's sound test to test the input of the stereo surround sound. It first flies toward the player and then flies around the screen.
+
+In the 2001 video game Star Wars: Galactic Battlegrounds, TIE fighters serve as the Galactic Empire's fighter unit and may be built at airbases in single player or multiplayer. The 2005 video game Star Wars: Battlefront II depicts TIE Fighters as having a proton-torpedo launcher in addition to two laser cannons. However this was most likely a game mechanic, used to balance teams and gameplay.
+
+The Star Wars: Rogue Squadron III: Rebel Strike game gave the following description concerning the TIE fighter:
+
+The first in the series of advanced twin ion engine starfighters, the original TIE fighter was developed by Sienar Fleet Systems. The agile single-pilot craft has a titanium alloy hull, and quadanium steel armored solar panels, but lacks a deflector shield and primary life-support systems. The TIE Fighter was intended to be used as a short-range attack craft, launching from nearby Imperial installations. TIE Fighters typically attack in swarms to overwhelm their opponents.
+
+In 2012 eFX Collectibles released a limited edition of 657 studio-scale TIE Fighter models.

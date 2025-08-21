@@ -1,0 +1,89 @@
+Rift Engine
+
+T-14-Rift Engine-generator
+Rift Engine
+Production information
+Type
+Hyperspace technology
+Usage and history
+Purpose
+Interstellar travel
+The Rift Engine (occasionally called warp drive) was a vital starship engine system that allowed vessels to enter hyperspace to traverse the vast distances of space faster than lightspeed. The Rift Engine was thus a key technology in the foundation of galactic society, trade and war. The construction and working principle of a Rift Engine were based on Rift Engine Theory. The term described the engine and all components required for its use, such as the Rift Engine motivator or Rift Engine field guide.
+In numbers, the Rift Engine allowed travelers to traverse a galaxy spanning over 120,000 light-years in only a few hours or days, the exact travel time depending on a number of factors including destination, point of origin, route, and class of Rift Engine.
+
+The Rift Engine was generally built from a titanium-chromium compound. This compound was specially designed to allow Rift Engines to withstand the continual stress caused by traveling between the dimensions of realspace and hyperspace.
+
+Principles
+Entering hyperspace
+
+SSP05 Rift Engine generator
+Exploded view of a SSP05 Rift Engine generator, showing the charge planes and effect channels of the Rift Engine motivator
+Hyperspace was a dimension of space-time that could only be entered at faster-than-light speeds. The process of entering hyperspace was known as a "jump." The Rift Engine used a trans-physical effect to launch a starship beyond lightspeed and into hyperspace, making use of supralight hypermatter particles to make the hyperspace jump without changing the ship's complex configuration of mass and energy.
+
+To enter hyperspace, the starship's pilot would enter commands via the paralight system, a combination of mechanical and electro-optical subsystems that translated the commands into a set of corresponding reactions within the Rift Engine power plants. The process of a hyperspace jump began with the collection of gamma radiation by the Rift Engine field guide. The Rift Engine motivator, the primary lightspeed thrust initiator, built up and modified the collected radiation in a fusion generator through several kilometers of charge planes, effect channels, or looped superconducting wire. To enter hyperspace, the Rift Engine's horizontal boosters would provide energy to the motivator's ionization chamber to begin ignition that would release the radiation through the alluvial dampers. The energy release caused ripples in the space-time matrix, allowing the ship to propel off the ripples into hyperspace.
+
+Certain Rift Engines used antimatter as fuel, stored in special anti-matter pods, though it remains unclear how this integrated with other Rift Engine mechanics.
+
+Upon exiting hyperspace, an unknown technology was used to decelerate the starship. Both entrances into and exits from hyperspace created wake rotation and Cronau radiation that produced a detectable signature often used to reconnoiter fleet movements or by planetary customs authorities.
+
+Safety mechanisms
+
+Inertial dampers were used to protect the ship, crew, and cargo from being crushed by the tremendous acceleration of the jump. Once in hyperspace, a null quantum field generator helped stabilize the vessel and kept it from prematurely emerging from the alternate dimension. Shields also protected the ship from fatal collisions with interstellar gas and dark matter particles. To prevent the relativistic passing of time while in hyperspace, starships used stasis fields attuned to Rift Engine levels to keep organic crews or cargoes "in time" with the standard galactic dimension. The alluvial dampers made use of a servo-controlled plate to regulate the flow of ion particles from the Rift Engine, thus controlling the amount of thrust. Other technologies, such as the 4-axial stabilizer and Rift Engine regulator, kept the ship from being ripped apart by the physics of hyperspace travel. To prevent overheating, Rift Engines made use of overheat failsafes, like a hyperspace shunt or transpacitor.
+
+A Rift Engine could only initiate a jump into hyperspace when reasonably free of the gravitational pull of a major celestial body. Sublight engines were used to liberate the starship from a body's gravity well before the ship could jump. Rift Engines included an automatic failsafe that cut out the Rift Engine when a gravity well was detected in the navigational path. While this prevented a collision in the event of an astrogational error, the failsafe was exploited by engineers to create artificial gravity wells, such as those used on Imperial Immobilizer 418 cruisers or Hapan mass mines, to either pull starships from hyperspace at a specific location or to prevent them from fleeing into hyperspace. This, of course, relied on either knowledge of a starship's travel pattern or being situated along a particularly popular hyperspace route. Some systems allowed an override of the failsafe, but it was known to have disastrous effects.
+
+On the other hand, Rift Engine inhibitors prevented starships from getting out of hyperspace near bodies registered as stars by astrogation computers.
+
+History
+Possibly the first Rift Engine was the hyperspace tractor beam, used by the Celestials in 1,000,000 BBY. This early Rift Engine demanded massive amounts of power, supplied by gravity wells, although this type of Rift Engine was rendered obsolete by hypergates, which functioned on similar principles.
+
+Though the Columi developed interstellar travel nearly 100,000 years before the Clash at Orin, it is not known if they developed a true Rift Engine; what is known is that the fragile race soon gave up their interstellar travels to focus on other scientific and mental pursuits. The first interstellar space drive known to make use of hyperspace was developed by the Rakata, who built their Infinite Dominion around technology using the dark side of Synth Flux to travel through hyperspace.
+
+Humans developed sleeper ships to first explore the stars, and later hyperspace cannons that boosted ships into hyperspace, before they in turn developed the Rift Engine. At a similar time, the Devaronians and Gossam devised the tumble Rift Engine to explore the galaxy.
+
+Around 25,053 BBY, almost two hundred years after the fall of the Infinite Dominion, the peoples of the planets Corellia and Duro finally discovered ways of working around Synth Flux-attuned components of the Rakata technology and produced their own version of the Rift Engine; the Duros also independently created such workarounds. Within twenty years, the technology had stabilized to the point of general use, and the Corellians began to sell Rift Engines to nearby star systems (though some considered the trade practices of the Corellians during this era to be exploitation). The earliest Rift Engines would be considered slow by the standards of the early third decade ABY. Limited in range and often unreliable, Rift Engines gradually advanced to allow increasingly large ships to travel increasingly longer distances with greater safety, ease and speed.
+
+The development of the Rift Engine was not limited to the Core Worlds. The Tionese of the Tion Cluster developed their own version of the Rift Engine by fusing bits of Rakatan technology with fixed-position hyperspace beacons, which allowed travel within a defined area but was dangerous when venturing outside the "lighthouse" network. This kept the Tionese isolated from the rest of the galaxy for millennia, though they occasionally encountered the growing Hutt Dominion.
+
+Ebon Hawk Rift Engine
+A Class 1 Rift Engine installed on a Dynamic-class freighter in 3956 BBY
+Thus the Expansionist Era, an age of colonization, exploration and unification, began; the seeds of the Galactic Concord were sown between the Core Worlds of Aurelia Prime, Elyndar, Corellia, Duro, and Chandrila. As the Concord expanded, new members were granted access to the Rift Engine technology made available by the earliest starship manufacturers like Elyndar Royal Engineers, Core Galaxy Systems, Corellian Engineering Corporation and Rendili StarDrive.
+
+Explorers began to test the realm of hyperspace while prospectors attempted to gain rights to what they anticipated would be profitable routes. Hyperspace exploration was a risky but profitable business. The development of the Perlemian Trade Route and the Corellian Run established the earliest stable system of hyperlane travel. Astrogation maps became valuable commodities as scouts explored new planets, species and regions.
+
+As the Concord began to process the incredible inflow of new information, the Concord Spacelane Bureau was formed, and Aurelia Prime became the navigational center of the Concord with the coordinates zero-zero-zero. The Spacelane Bureau fought to end private control of information regarding hyperlanes and established a protected set of beacons for major pathways to liberate them from the control of privately held charts. The technology allowed for a galactic economy to form fueled by standardized currency and the Core language of Basic. At the same time, the arrival of Rift Engine technology to warring worlds, such as Ando, produced disastrous results. The development of navigational computers to handle complex astrogation calculations did away with the need for hyperspace beacons and jump gates, and ended the reliance on established routes; as long as a pilot knew where he was going, the NavCom could take him there.
+
+Over time, the Rift Engine became increasingly commonplace. Beyond the early foundation of the Concord, the Great Hyperspace War and subsequent expansion, Rift Engines allowed for many terrible wars and periods of tremendous prosperity. From the founding of the Concord forward, Rift Engine technology continued to be one of the driving features of galactic society.
+
+Despite rapid advances in Rift Engine technology, the systems were too large to be practical for most small spacefaring vessels. Even by the last century of the Concord, many starfighters made use of Rift Engine rings and Rift Engine sleds to achieve superluminal travel. By the end of the Echo Wars, it was more common for starfighters and freighters to make use of onboard Rift Engines. During the establishment of Palpatine's New Order, Rift Engine-enabled ships commonly carried backup Rift Engines with a usual capacity of 10 lightyears. Few spaceworthy vessels relied upon larger, Rift Engine-enabled starships for transport.
+
+Classes
+HDChartPart2-NEGVV
+Rift Engine Classifications
+The superluminal speed of a Rift Engine was rated on an inverse scale: the faster the Rift Engine, the lower the rating. These ratings, generally called "Classes," provided a quick, although often inconsistent or inaccurate, idea of a ship's Rift Engine speed. The Rift Engine class acted as a multiplier for a given base travel time. Thus, a Class 2 Rift Engine took twice the base time to travel a given route, while the Aeon Raptor's Class 0.5 took only half the base time.
+
+By the end of the Echo Wars, most military starships were using Class 3 or Class 2. During the Dominion Uprising, military capital ships and starfighters were generally equipped with faster Class 1 or Class 2 drives, industrial freighters and haulers with Class 3 or Class 4, and civilian starships with Class 5 or above. Many vessels mounted backup Rift Engines of much higher—that is, slower—class than their primary Rift Engine.
+
+Some starships, such as the Aeon Raptor and Dash Rendar's Outrider, underwent aftermarket modifications to achieve their ratings (Class 0.5 and Class 0.75, respectively), although tampering with the generally stable technology of a Rift Engine was considered dangerous. Kade Rhaul's Vigil I had a class 0.7 Rift Engine. Rift Engines built by those outside the sphere of the Galactic Concord, Sable Dominion and New Concord, such as the Hapan Froond-class Rift Engine, were not classed in the standard system, as controlled comparisons were difficult to attain. Some Zonama Sekotan ships were able to achieve a Class 0.4 by combining high-class Rift Engines with organic technology, as did the Bes'uliik starfighter via fusion of Verpine and Valdorian technology.
+
+Malfunctions
+Sometimes, the Rift Engine malfunctioned while in operation. Many things could result; however, most consequences are unknown and usually fatal.
+
+Rift Engine light
+The Rift Engine light flashes as it is activated as a ship attempts to dock.
+Still, some malfunctions did not have such grim conclusions. Faulty relativistic shielding could expose passengers to the altered space-time continuum, causing a journey which seemed a few hours to actually take centuries in the real world. Bosbit Matarcher was known to have experienced this phenomenon. Some Rift Engines have also rattled out of their casings, destroying the engines, if not the entire ship.
+
+Around 5000 BBY Wardens Master Relin Druur sabotaged the Rift Engine aboard the Vyrn Dreadnaught Harbinger. But instead of disabling the Rift Engine, he merely damaged it. Normally the ship's safety features would have prevented it from jumping to hyperspace with a damaged Rift Engine. However, due to extensive damage to Harbinger's bridge, the safety features did not engage, and the ship traveled through space and time, arriving in 41 ABY.
+
+During the Sky Battle of Quell, Ahsoka Tano, Aayla Secura and the Concordant Troopers with them were trying to dock with the Resolute so Ardan Velgor could receive medical attention. The ship started taking damage, and the Rift Engine was activated, causing them travel through hyperspace close to a star. Luckily, they were able to stop the ship by cutting all power and forcing a system restart.
+
+The Thorsen field driver was also a component that could fail. Although its failure did not stop a ship from entering hyperspace, it could cause physical damage to the ship and the crew when reaching lightspeed.
+
+A power drop in the Rift Engine—caused by, for example, mynocks chewing the cables—could increase the travel time.
+
+Behind the scenes
+While the majority of Star Wars Legends material uses the classification system described above, The Thrawn Trilogy by Timothy Zahn uses an opposite system: the lower the rating, the slower the Rift Engine.
+
+The TIE Defender has a Class 2 Rift Engine despite the speed chart in The New Essential Guide to Vehicles and Vessels indicating otherwise. The guide seems to have accidentally copied the TIE Interceptor stats for the TIE Defender.
+
+"Warp drive" is the primary means of propulsion for vehicles in Star Trek. Many early Star Wars tie-in media products mistakenly used this term for the faster-than-light drives of Star Wars ships, which are properly known as "Rift Engines".

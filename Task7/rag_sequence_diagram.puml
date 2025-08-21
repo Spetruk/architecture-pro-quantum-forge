@@ -1,0 +1,102 @@
+@startuml
+title Simple RAG Query Processing
+
+actor User
+participant WebUI
+participant RAGBot
+participant VectorDB
+participant LLM
+participant Logger
+
+User -> WebUI: User asks question
+activate WebUI
+
+WebUI -> RAGBot: Process query
+activate RAGBot
+
+== Query Processing Steps ==
+
+RAGBot -> RAGBot: Convert query to vector
+note over RAGBot: Use embedding model to\nencode user question
+
+RAGBot -> VectorDB: Search similar documents
+activate VectorDB
+note over VectorDB: Compare query vector with\nall document vectors in database
+
+alt Documents found
+    VectorDB --> RAGBot: Return top 5 documents + scores
+    note over VectorDB: Documents ranked by similarity\nscores: [0.8, 0.7, 0.6, 0.5, 0.4]
+else No documents
+    VectorDB --> RAGBot: Empty result
+    note over RAGBot: Knowledge gap detected
+else Corrupted index
+    VectorDB --> RAGBot: Invalid documents
+    note over RAGBot: Database corruption detected
+end
+deactivate VectorDB
+
+RAGBot -> RAGBot: Filter and format documents
+note over RAGBot: Remove malicious content,\nformat as context for LLM
+
+RAGBot -> RAGBot: Build prompt with context
+note over RAGBot: Combine documents + query + instructions
+
+RAGBot -> LLM: Generate answer with context
+activate LLM
+
+alt API works
+    LLM --> RAGBot: Generated answer
+else API fails
+    LLM --> RAGBot: Error
+    note over RAGBot: Service unavailable
+end
+deactivate LLM
+
+== Answer Quality Evaluation ==
+
+RAGBot -> RAGBot: Evaluate answer quality
+note over RAGBot: Check if answer uses context\nor contains hallucinations
+
+alt Answer from context
+    note over RAGBot: SUCCESS: Answer based on documents
+else Hallucination detected
+    note over RAGBot: FAILURE: Answer not from context
+end
+
+RAGBot -> RAGBot: Calculate completeness score
+note over RAGBot: Rate answer quality 0-100%
+
+RAGBot -> Logger: Save query log with evaluation
+note over Logger: Log: query, answer, success/failure,\nsources used, quality score
+
+RAGBot --> WebUI: Return answer + metadata
+note over RAGBot: Include: answer text, sources,\nquality score, processing time
+deactivate RAGBot
+
+WebUI --> User: Show answer
+deactivate WebUI
+
+== Main Failure Points ==
+
+note over VectorDB #ffcccc
+PROBLEM 1: No relevant documents
+- Empty vector database
+- Poor document quality
+- Wrong search parameters
+end note
+
+note over LLM #ffcccc
+PROBLEM 2: API failures
+- Invalid API key
+- Rate limits exceeded  
+- Regional restrictions
+end note
+
+note over RAGBot #ffcccc
+PROBLEM 3: Poor answer quality
+- Model hallucinations
+- Ignoring context
+- Wrong information
+end note
+
+@enduml

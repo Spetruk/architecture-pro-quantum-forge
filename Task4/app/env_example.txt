@@ -1,0 +1,15 @@
+# Конфигурация API ключей для LLM
+# Скопируйте этот файл в .env и заполните ваши ключи
+
+# OpenAI API ключ
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Настройки RAG-бота
+RAG_MAX_RESULTS=5
+RAG_TEMPERATURE=0.7
+RAG_CHUNK_SIZE=2000
+RAG_CHUNK_OVERLAP=200
+
+# Настройки веб-интерфейса
+STREAMLIT_SERVER_PORT=8501
+STREAMLIT_SERVER_ADDRESS=localhost

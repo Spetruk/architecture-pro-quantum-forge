@@ -1,0 +1,32 @@
+@startuml Simple Auto Update Architecture
+
+title Упрощённая архитектура системы автоматического обновления
+
+component [Локальная папка] as folder
+component [AutoUpdateManager] as manager
+component [Планировщик] as scheduler  
+component [Конфигурация] as config
+component [Сканер файлов] as scanner
+component [Text Splitter] as splitter
+component [Embeddings] as embeddings
+database "ChromaDB" as db
+storage "Кэш файлов" as cache
+storage "Логи" as logs
+
+' Связи
+folder --> scanner : новые файлы
+scanner --> manager : найденные файлы
+manager --> splitter : документы
+splitter --> embeddings : чанки
+embeddings --> db : векторы
+
+config --> manager : настройки
+manager --> cache : обновление кэша
+manager --> logs : запись логов
+
+scheduler --> manager : запуск по расписанию
+
+note right of db : Векторная база данных
+note top of folder : Новые документы
+
+@enduml

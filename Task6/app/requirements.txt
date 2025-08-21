@@ -1,0 +1,35 @@
+# RAG Bot Dependencies for Task5 (Prompt Injection Testing)
+# Core ML and NLP
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+numpy<2.0
+pandas>=1.5.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.1.0
+langchain-openai>=0.1.0
+
+# Vector Database
+chromadb==1.0.18
+
+# Web Interface
+streamlit>=1.25.0
+gradio>=3.35.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+tiktoken>=0.4.0
+
+# Auto-update system
+PyYAML>=6.0
+schedule>=1.2.0
+
+# Development and Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0

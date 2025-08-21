@@ -1,0 +1,20 @@
+{
+  "model": {
+    "name": "all-mpnet-base-v2",
+    "embedding_size": 768
+  },
+  "knowledge_base": {
+    "path": "/Users/av/Developer/architecture-pro-quantum-forge/Task7/knowledge_base",
+    "total_documents": 28,
+    "total_chunks": 1885
+  },
+  "processing": {
+    "time_seconds": 172.78053832054138,
+    "time_minutes": 2.87967563867569,
+    "chunks_per_second": 10.909793535328381
+  },
+  "vectorstore": {
+    "type": "ChromaDB",
+    "persist_directory": "./chroma_db"
+  }
+}
